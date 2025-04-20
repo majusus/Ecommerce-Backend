@@ -13,9 +13,9 @@ Designed scalable and secure APIs to support communication with frontend applica
 
 Setup Instructions:
 - Clone the repository.
-- Configure the connection string for MS Access database in the appsettings.json file.
-- Register your free MailTrap account and set the SMTP credentials.
-- Deploy the ONNX model for product summarization.
+- Configure the connection string for MS Access database in the appsettings.json file.(already present if path is changes then need to modify)
+- Register your free MailTrap account and set the SMTP credentials.(already present with a free account)
+- Deploy the ONNX model for product summarization.(added as part of this project)
 
 Tech Stack:
 - Backend Framework: .NET 9
