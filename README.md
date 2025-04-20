@@ -13,9 +13,10 @@ Designed scalable and secure APIs to support communication with frontend applica
 
 Setup Instructions:
 - Clone the repository.
-- Configure the connection string for MS Access database in the appsettings.json file.(already present if path is changes then need to modify)
-- Register your free MailTrap account and set the SMTP credentials.(already present with a free account)
-- Deploy the ONNX model for product summarization.(added as part of this project)
+- Configure the connection string for **MS Access database** in the appsettings.json file.(already present if path is changes then need to modify)
+- Register your free **MailTrap** account and set the SMTP credentials.(already present with a free account)
+- Download the **ONNX model** for product summarization and plca them in the models folder in Core Project.(**Download link**: https://huggingface.co/Xenova/bart-large-cnn/tree/main/onnx **Files**: decoder_model.onnx,encoder_model.onnx) 
+- Deploy the ONNX model for product summarization.
 
 Tech Stack:
 - Backend Framework: .NET 9
